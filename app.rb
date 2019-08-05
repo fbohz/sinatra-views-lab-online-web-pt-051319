@@ -14,7 +14,7 @@ class App < Sinatra::Base
 	end
 	
 	get '/date' do
-		binding.pry
+	
 		erb :date
 	end
 
