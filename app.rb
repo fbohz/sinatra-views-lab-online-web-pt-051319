@@ -13,7 +13,8 @@ class App < Sinatra::Base
 		erb :goodbye
 	end
 	
-		get '/date' do
+	get '/date' do
+		binding.pry
 		erb :date
 	end
 
